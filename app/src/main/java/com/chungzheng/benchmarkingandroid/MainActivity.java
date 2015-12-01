@@ -53,6 +53,7 @@ public class MainActivity extends ActionBarActivity {
         {
             TextView tv_spawn = new TextView(this);
             tv_spawn.setText(Integer.toString(i));
+            tv_spawn.setBackgroundResource(android.R.drawable.bottom_bar);
             tv_spawn.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
             lnlayout.addView(tv_spawn);
         }
